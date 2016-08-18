@@ -22,7 +22,6 @@ document.body.className = 'js';
     counter+=4;
   }
 
-console.log(imgData);
   ctx.putImageData(imgData, 0, 0);
 
   if (isWebGlSupported()) {
